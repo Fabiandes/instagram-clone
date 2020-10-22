@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+    padding: 0 5rem;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+.navbar, h1{
+    margin: 0;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    min-width: 250px;
+}
+
+.nav-item{
+    height: 40px;
+    stroke: black;
+}
+
+.nav-item-selected{
+    stroke: red;
+}

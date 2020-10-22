@@ -1,0 +1,28 @@
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 30px;
+    padding: 5px 15px;
+
+    width: 250px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.search-bar-icon{
+    height: 20px;
+}
+
+.search-bar-text{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.search-input{
+    width: 150px;
+    border: none;
+}
